@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+	<title>jQuery star rater</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<script type="text/javascript" src="jquery-latest.js"></script>
+	<script type="text/javascript" src="jquery.rater.js"></script>
+	<link rel="stylesheet" type="text/css" href="rater.css" /> 
+
+</head>
+<body>	
+	<div id="demo0">
+		rater();
+	</div>
+	<script type="text/javascript">
+		$("#demo0").rater();
+	</script>
+<hr />
+	<div id="demo1">
+		rater({maxvalue:10});
+	</div>
+	<script type="text/javascript">
+		$("#demo1").rater({maxvalue:10});
+	</script>
+<hr />
+	<div id="demo2">
+		rater({maxvalue:10,curvalue:3});
+	</div>
+	<script type="text/javascript">
+		$("#demo2").rater({maxvalue:10,curvalue:3});
+	</script>
+<hr />
+	<div id="demo3">
+		rater({active:false,maxvalue:10,curvalue:3});
+	</div>
+	<script type="text/javascript">
+		$("#demo3").rater({active:false,maxvalue:10,curvalue:3});
+	</script>
+<hr />
+	<div id="demo4">
+		rater({maxvalue:10,curvalue:3,style:'small'});
+	</div>
+	<script type="text/javascript">
+		$("#demo4").rater({maxvalue:20,curvalue:3,style:'small'});
+	</script>
+<hr />
+	<span id="demo5">
+		rater({maxvalue:12,curvalue:3,style:'inline-normal'});
+	</span>
+	<script type="text/javascript">
+		$("#demo5").rater({maxvalue:12,curvalue:3,style:'inline-normal'});
+	</script>
+</body>
+</html>
